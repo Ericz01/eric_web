@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Are We Half Past The Hour?</title>
+    </head>
+    <body>
+        {% if minute %}
+            <h1>NO</h1>
+        {% else %}
+            <h1>YES</h1>
+        {% endif %}
+        <h2>Time: {{current_hour}}:{{current_minute}}:{{current_second}}</h2>
+    </body>
+</html>
