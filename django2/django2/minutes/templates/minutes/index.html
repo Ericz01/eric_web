@@ -2,7 +2,9 @@
 <html>
     <head>
         <title>Are We Half Past The Hour?</title>
+        <meta http-equiv="refresh" content="1">
     </head>
+    
     <body>
         {% if minute %}
             <h1>NO</h1>
@@ -10,5 +12,6 @@
             <h1>YES</h1>
         {% endif %}
         <h2>Time: {{current_hour}}:{{current_minute}}:{{current_second}}</h2>
+
     </body>
 </html>
