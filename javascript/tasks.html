@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tasks</title>
+        <script>
+            //Load all content
+            document.addEventListener('DOMContentLoaded', function() {
+
+                // Preven submission of empty string by disabling submit button before typing
+                document.querySelector('#submit').disabled = true;
+
+                document.querySelector('#task').onkeyup = () => {
+                    if (document.querySelector('#task').value.length > 0){
+                        //if nothing is typed in form
+                        document.querySelector('#submit').disabled = false;
+                     } else {
+                        document.querySelector('#submit').disabled = true;
+                    }
+                }
+
+                //when form is submitted
+                document.querySelector('form').onsubmit = () => {
+                    //get the element with id="#task" and access the value ie, what the user typed in
+                    const task = document.querySelector('#task').value;
+                    
+                    //create a list item when the form is submitted
+                    const li = document.createElement('li');
+                    //populate the element with user's input
+                    li.innerHTML = task;
+                    //add the element to the unordered list #tasks
+                    document.querySelector('#tasks').append(li);
+                    //stop form from submitting
+                    document.querySelector('#task').value = '';
+
+                    //disable the button after the form is submitted
+                    document.querySelector('#submit').disabled = true;
+                    // Clear form after submission
+                    return false;
+                }
+            });
+        </script>
+
+    </head>
+    <body>
+        <h1>Tasks</h1>
+        <ul id="tasks">
+
+        </ul>
+        <form>
+            <input id="task" placeholder="New Task" type="text" autocomplete="off">
+            <input id="submit" type="submit">
+        </form>
+    </body>
+</html>

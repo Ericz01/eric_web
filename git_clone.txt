@@ -1,0 +1,52 @@
+git clone https://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@github.com/Ericz01/c-programs.git
+
+
+***********************************************************************
+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
+git clone https://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@github.com/Ericz01/python1.git
+
+*******************************************************************
+git config --global user.name "Ericz01"
+
+git config --global user.email "erickinyua770@gmail.com"
+*****************************************************************
+
+//this is the pip installation folder. cd to it in cmd and voila!!
+
+C:\Users\user\AppData\Local\Programs\Python\Python311
+*******************************************************************
+
+eric_web repo
+git clone https://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@github.com/Ericz01/eric_web.git
+*******************************************************************
+
+web50 repo
+git clone https://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@github.com/Ericz01/web50.git
+******************************************************************************************
+
+
+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
+****************************************************************************
+ericz01
+
+https://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@github.com/me50/Ericz01.git
+****************************************************************************
+
+submit50 paraphrase = "ericz01"
+
+****************************************************************************
+
+React:
+
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+             ***
+<script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+
+**************************************************************
+

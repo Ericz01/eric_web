@@ -1,0 +1,9 @@
+{% extends "blog/layout.html" %}
+
+{% block body%}
+    {% for author in posts_authors %}
+        <ul>
+            <li>{{ author }}</li>
+        </ul> 
+    {% endfor %}
+{% endblock %}
