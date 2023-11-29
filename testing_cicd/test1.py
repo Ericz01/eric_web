@@ -1,0 +1,24 @@
+import unittest
+
+from prime import is_prime
+
+class Tests(unittest.TestCase):
+    def test_1(self):
+        '''Check that 1 is not prime'''
+        self.assertFalse(is_prime(1))
+
+        '''Check that 1 is not prime'''
+        self.assertTrue(is_prime(2)) 
+
+        '''Check that 8 is not prime'''
+        self.assertFalse(is_prime(8)) 
+
+        '''Check that 11 is not prime'''
+        self.assertTrue(is_prime(11)) 
+
+        '''Check that 25 is not prime'''
+        self.assertFalse(is_prime(25)) 
+
+        '''Check that 28 is not prime'''
+        self.assertFalse(is_prime(28)) 
+
